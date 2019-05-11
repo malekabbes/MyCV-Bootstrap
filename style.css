@@ -1,0 +1,153 @@
+.cover{
+    background-size:cover;
+    background-image:url(cover.jpg);
+    width:100%;
+    height:300px;
+    box-shadow: 3px 3px 5px 6px rgb(192, 189, 189);
+}
+#photo{
+    display:block;
+    position:relative;
+    width:200px;
+    transform: rotate(90deg);
+    border-radius:60%;
+    margin:auto;
+    top:-100px;
+    transform-style: preserve-3d;
+}
+#photo:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.7s; 
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(90deg)}
+    10% { transform: translate(-1px, -2px) rotate(90deg)}
+    20% { transform: translate(-3px, 0px) rotate(90deg)}
+    30% { transform: translate(3px, 2px) rotate(90deg)}
+    40% { transform: translate(1px, -1px) rotate(90deg)}
+    50% { transform: translate(-1px, 2px) rotate(90deg) }
+    60% { transform: translate(-3px, 1px) rotate(90deg)}
+    70% { transform: translate(3px, 1px) rotate(90deg)}
+    80% { transform: translate(-1px, -1px)rotate(90deg) }
+    90% { transform: translate(1px, 2px) rotate(90deg)}
+    100% { transform: translate(1px, -2px)rotate(90deg)  }
+  }
+  .contact{
+      width:50%;
+      margin-left:400px;
+      margin-top:-130px;
+      display:block;
+      text-align: center;
+  }
+  .contact i:hover {
+    color: rgb(47, 33, 243);
+    cursor: pointer;
+}
+  .fa-facebook {
+    padding-right: 20px;
+    font-size:60px;
+    color:rgb(52, 164, 255);
+    margin-top:50px;
+    padding:auto;
+    }
+    .fa-skype {
+        padding-right: 20px;
+        font-size:60px;
+        color:rgb(52, 164, 255);
+        margin-top:50px;
+        }
+        .fa-github {
+            padding-right: 20px;
+            font-size:60px;
+            color:rgb(52, 164, 255);
+            margin-top:50px;
+            }
+.me{
+    text-align:center;
+    width:50%;
+    margin-left:400px;
+}
+.header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:2px 1px 2px rgb(0, 0, 0);
+    font-size:50px;
+}
+.header:hover{
+text-decoration: underline;
+color:rgb(34, 33, 33);
+}
+.col{
+padding:50px;
+text-align:center;
+}
+.header2{
+    color:blue;
+    text-shadow: 1px 2px 2px rgb(41, 19, 19);
+}
+.header2:hover{
+    color:rgb(83, 83, 192);
+    text-decoration: underline;
+}
+.header3{
+    color:blue;
+    text-shadow: 1px 2px 2px rgb(41, 19, 19);
+}
+.header3:hover{
+    color:rgb(83, 83, 192);
+    text-decoration: underline;
+}
+.interests {
+    width:60%;
+    height: 50%;
+    text-align:center;
+    display:block;
+    margin-left:230px;
+}
+.fa-code{
+padding-right: 20px;
+font-size:60px;
+color:rgb(52, 164, 255);
+margin-top:50px;
+}
+.fa-table-tennis{
+    padding-right: 20px;
+    font-size:60px;
+    color:rgb(52, 164, 255);
+    margin-top:50px;
+    }
+    .fa-gamepad{
+        padding-right: 20px;
+        font-size:60px;
+        color:rgb(52, 164, 255);
+        margin-top:50px;
+        }
+.int{
+    text-align:center;
+}
+.row i:hover{
+    color: rgb(47, 33, 243);
+    cursor: pointer;
+    transform: rotate(360deg); /* Chrome, Safari, Opera */
+    padding:15px;
+    border-radius:50%;
+    transform: rotate(360deg)!important;
+    transition: all .2s !important; 
+}
+.text-centered {
+    text-align: center;
+}
+.projects img {
+    border-radius: 3.5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    transition: box-shadow .3s;
+}
+.projects img:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow .3s;
+}
